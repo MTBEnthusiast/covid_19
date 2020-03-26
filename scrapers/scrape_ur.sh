@@ -3,7 +3,7 @@
 import scrape_common as sc
 
 print('UR')
-d = sc.download('https://www.ur.ch/themen/2920')
+d = sc.download('https://www.ur.ch/themen/2962')
 sc.timestamp()
 d = sc.filter(r'Personen gestiegen|Anstieg auf [0-9]+ Person|infiziert sind', d)
 
